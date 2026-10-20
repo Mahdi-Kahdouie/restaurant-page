@@ -1,7 +1,8 @@
-import { image } from "./home.js";
+import { home } from "./home.js";
 import { menu } from "./menu.js";
 import { about } from "./about.js";
-image();
+import "./style.css";
+home();
 
 const button = document.querySelectorAll(".headerBtn");
 const content = document.querySelector("#content");
@@ -11,7 +12,7 @@ button.forEach((btn) => {
   btn.addEventListener("click", () => {
     if (btn.textContent == "Home") {
       content.innerHTML = "";
-      image();
+      home();
     }
     if (btn.textContent == "Menu") {
       content.innerHTML = "";
