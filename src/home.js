@@ -1,4 +1,3 @@
-// import restaurant from "./images/restaurant.jpg";
 import steak from "./images/steak.jpg";
 
 export function home() {

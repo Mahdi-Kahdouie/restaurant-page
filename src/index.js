@@ -10,20 +10,16 @@ button.forEach((btn) => {
   console.log(btn.textContent);
 
   btn.addEventListener("click", () => {
+    content.innerHTML = "";
     if (btn.textContent == "Home") {
-      content.innerHTML = "";
       home();
     }
-    if (btn.textContent == "Menu") {
-      content.innerHTML = "";
+    else if (btn.textContent == "Menu") {
       menu();
     }
 
-    if (btn.textContent == "About") {
-      content.innerHTML = "";
+    else if (btn.textContent == "About") {
       about();
     }
   });
 });
-
-console.log("Hello!!!");

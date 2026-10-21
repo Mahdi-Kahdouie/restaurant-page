@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background-color: rgb(50, 0, 0);
-  /* background-color: #8B261D; */
 }
 
 .backImage {
@@ -15,7 +14,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #8B261D;
+  background-color: #8b261d;
 }
 
 header p {
@@ -32,32 +31,62 @@ header p {
   background-color: #eff0ef;
   border: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 5px;
 }
 
-#content{
-
+#content {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 40px;
-  /* align-items: space-around; */
-  /* flex-direction: column; */
-  
-
 }
-.welcome{
+.welcome {
   color: whitesmoke;
   font-size: 60px;
   font-weight: bold;
 }
 
-.homeText{
+.homeText {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-img{
+img {
   border-radius: 20px;
+}
+
+.menuCard {
+  background-color: #8b261d;
+  width: 600px;
+  height: 800px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: rgba(50, 0, 0, 0.7);
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+  padding:10px ;
+}
+
+.menuText {
+  color: whitesmoke;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.dishTitle,
+.dishDesc {
+  color: #f5f2eb;
+}
+
+.dishPrice {
+  color: #d4af37;
 }
