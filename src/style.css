@@ -85,6 +85,8 @@ img {
 .dishTitle,
 .dishDesc {
   color: #f5f2eb;
+  line-height: 1.6;
+  
 }
 
 .dishPrice {
